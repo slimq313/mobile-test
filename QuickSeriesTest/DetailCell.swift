@@ -1,18 +1,18 @@
 //
-//  CategoryCell.swift
+//  RestuarantCell.swift
 //  QuickSeriesTest
 //
-//  Created by CtanLI on 2017-09-13.
+//  Created by CtanLI on 2017-09-14.
 //  Copyright © 2017 QuickSeries. All rights reserved.
 //
 
 import UIKit
 
-class CategoryCell: UITableViewCell, Reusable {
+class DetailCell: UITableViewCell, Reusable {
 
-    //Outlets
-    @IBOutlet weak var timeCreated: UILabel!
-    @IBOutlet weak var titleName: UILabel!
+    //OutLets
+    @IBOutlet weak var descriptionText: UILabel!
+    @IBOutlet weak var placeTitle: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,9 +21,7 @@ class CategoryCell: UITableViewCell, Reusable {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
         // Configure the view for the selected state
     }
-    
-    
+
 }

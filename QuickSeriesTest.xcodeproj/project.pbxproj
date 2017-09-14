@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46667AF31F6A1F1400DBF554 /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 46667AF01F6A1F1400DBF554 /* categories.json */; };
+		46667AF41F6A1F1400DBF554 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 46667AF11F6A1F1400DBF554 /* restaurants.json */; };
+		46667AF51F6A1F1400DBF554 /* vacation-spot.json in Resources */ = {isa = PBXBuildFile; fileRef = 46667AF21F6A1F1400DBF554 /* vacation-spot.json */; };
+		46667AF71F6A3ED700DBF554 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46667AF61F6A3ED700DBF554 /* DetailController.swift */; };
+		46667AF91F6A3F3000DBF554 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46667AF81F6A3F3000DBF554 /* DetailCell.swift */; };
 		46ECDDAF1F69E8AC00C6104F /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ECDDAE1F69E8AC00C6104F /* CategoryCell.swift */; };
 		46ECDDB21F69ED0100C6104F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ECDDB11F69ED0100C6104F /* Extension.swift */; };
 		46ECDDB51F69F6B400C6104F /* categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ECDDB41F69F6B400C6104F /* categories.swift */; };
@@ -37,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46667AF01F6A1F1400DBF554 /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
+		46667AF11F6A1F1400DBF554 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
+		46667AF21F6A1F1400DBF554 /* vacation-spot.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "vacation-spot.json"; sourceTree = "<group>"; };
+		46667AF61F6A3ED700DBF554 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		46667AF81F6A3F3000DBF554 /* DetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
 		46ECDDAE1F69E8AC00C6104F /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		46ECDDB11F69ED0100C6104F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		46ECDDB41F69F6B400C6104F /* categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = categories.swift; sourceTree = "<group>"; };
@@ -84,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				46FBE2FB1F69E4B600600AED /* ViewController.swift */,
+				46667AF61F6A3ED700DBF554 /* DetailController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -92,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				46ECDDAE1F69E8AC00C6104F /* CategoryCell.swift */,
+				46667AF81F6A3F3000DBF554 /* DetailCell.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -170,6 +182,9 @@
 		46FBE3271F69E4C700600AED /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				46667AF01F6A1F1400DBF554 /* categories.json */,
+				46667AF11F6A1F1400DBF554 /* restaurants.json */,
+				46667AF21F6A1F1400DBF554 /* vacation-spot.json */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -284,7 +299,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46667AF51F6A1F1400DBF554 /* vacation-spot.json in Resources */,
 				46FBE3041F69E4B600600AED /* LaunchScreen.storyboard in Resources */,
+				46667AF41F6A1F1400DBF554 /* restaurants.json in Resources */,
+				46667AF31F6A1F1400DBF554 /* categories.json in Resources */,
 				46FBE3011F69E4B600600AED /* Assets.xcassets in Resources */,
 				46FBE2FF1F69E4B600600AED /* Main.storyboard in Resources */,
 			);
@@ -313,7 +331,9 @@
 			files = (
 				46FBE2FC1F69E4B600600AED /* ViewController.swift in Sources */,
 				46ECDDB21F69ED0100C6104F /* Extension.swift in Sources */,
+				46667AF71F6A3ED700DBF554 /* DetailController.swift in Sources */,
 				46ECDDB51F69F6B400C6104F /* categories.swift in Sources */,
+				46667AF91F6A3F3000DBF554 /* DetailCell.swift in Sources */,
 				46FBE2FA1F69E4B600600AED /* AppDelegate.swift in Sources */,
 				46ECDDAF1F69E8AC00C6104F /* CategoryCell.swift in Sources */,
 			);

@@ -8,8 +8,9 @@
 
 import Foundation
 
-class Users: NSObject {
+class Category: NSObject {
     
-    var title: String?
+    //var title: String?
     var updatedAt: String?
+    var title: [String] = [String]()
 }
